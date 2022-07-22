@@ -59,12 +59,12 @@
 // export default Postview
 
 
-import Logo from "../assets/logo1.png";
-import Camera from "../assets/cam2.jpg"
+import Logo from "./instaclone.png";
+import Camera from "./camera.png";
 import { useEffect, useState } from "react";
 
 import axios from "axios"
-import "./post_view.css";
+// import "./post_view.css";
 
 
 const PostView = () => {

@@ -73,14 +73,14 @@
 // export default Form;
 
 
-import Logo from "../assets/logo1.png";
-import Camera from "../assets/cam2.jpg"
+import Logo from "./instaclone.png";
+import Camera from "./camera.png";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Filebase64 from "react-file-base64"
 import axios from "axios";
-import './form.css'
+// import './form.css'
 
 const Form_page=() =>{
     const navigate = useNavigate()
