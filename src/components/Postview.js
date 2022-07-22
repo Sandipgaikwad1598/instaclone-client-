@@ -1,7 +1,7 @@
 import Header from "./Header"
 import axios from "axios"
 import { useState,useEffect } from "react"
-const address="https://instaclone-server-10.herokuapp.com/";
+const address="https://instaclone-server-10.herokuapp.com/user";
 // const heroku="https://insta-relica-server.herokuapp.com/";
 
 const Postview =()=>{
