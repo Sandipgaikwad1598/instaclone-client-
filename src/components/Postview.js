@@ -1,6 +1,7 @@
 import Header from "./Header"
 import axios from "axios"
 import { useState,useEffect } from "react"
+import like from "./like1.png";
 
 const Postview =()=>{
     const [data,setpost]=useState([])
@@ -36,7 +37,7 @@ const Postview =()=>{
                     <div id='footer'>
                       <div id='footer_flex'>
                         <div >
-                          <img className='like_share' src='https://p.kindpng.com/picc/s/169-1694281_heart-symbol-computer-icons-heart-icon-instagram-png.png' alt=''></img>
+                          <img className='like_share' src={like} alt=''></img>
                           <img className='like_share' src='https://cdn0.iconfinder.com/data/icons/simple-line-design/100/Fast_delivery-512.png' alt=''></img>
                         </div>
                         <h6 style={{margin:'1px'}} className='date'>{user.date}</h6>
